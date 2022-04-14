@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/app-meteorologica/static/css/main.934073c8.css",
+    "main.js": "/app-meteorologica/static/js/main.acb255a6.js",
+    "static/js/787.3546c3e9.chunk.js": "/app-meteorologica/static/js/787.3546c3e9.chunk.js",
+    "static/media/otoño.jpg": "/app-meteorologica/static/media/otoño.decf59259d075f79cb7a.jpg",
+    "static/media/tormenta.jpg": "/app-meteorologica/static/media/tormenta.49f9749420ee9f21f386.jpg",
+    "static/media/paradise-in-flight.jpg": "/app-meteorologica/static/media/paradise-in-flight.a162b5368596a6eb19a5.jpg",
+    "static/media/gatito404.png": "/app-meteorologica/static/media/gatito404.a147b44fc55e10d62750.png",
+    "static/media/invierno.jpg": "/app-meteorologica/static/media/invierno.c1a47013c88be5db014a.jpg",
+    "static/media/nublado.webp": "/app-meteorologica/static/media/nublado.4758611db3ff8d1cbb9e.webp",
+    "static/media/pngwing.com.png": "/app-meteorologica/static/media/pngwing.com.949ee0ad780eaf682bed.png",
+    "index.html": "/app-meteorologica/index.html",
+    "main.934073c8.css.map": "/app-meteorologica/static/css/main.934073c8.css.map",
+    "main.acb255a6.js.map": "/app-meteorologica/static/js/main.acb255a6.js.map",
+    "787.3546c3e9.chunk.js.map": "/app-meteorologica/static/js/787.3546c3e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.934073c8.css",
+    "static/js/main.acb255a6.js"
+  ]
+}
