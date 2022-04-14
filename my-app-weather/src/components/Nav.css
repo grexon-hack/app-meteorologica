@@ -1,0 +1,51 @@
+#logoHenry {
+    margin-right: 20px;
+}
+.navbar {
+    width: 100%;
+    /* margin-top: -100px; */
+    background-color: #6c757d81;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    
+}
+.logotipo {
+    display: flex;
+    align-items: center;
+}
+  
+.logotipo h3 {
+    margin-left: 10px;
+    color: black;
+}
+.inputext {
+    margin-right: 10px;
+    border-radius: 8px;
+  
+}
+.boton {
+    background-color: transparent;
+    color: antiquewhite;
+    border: solid 1px #80ffdb;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.aboutLink {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width : 780px) {
+    .navbar {
+        font-size: 10px;
+    }
+    .logotipo img {
+        height: 50px;
+        width: 50px;
+    }
+}

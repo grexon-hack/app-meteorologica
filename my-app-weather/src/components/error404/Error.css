@@ -1,0 +1,46 @@
+.error {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+}
+.estilos h1 {
+    /* width: fit-content; */
+    display: inline;
+    font-size: 60px;
+    color: azure;
+   text-decoration:underline;
+   
+   animation: linterna 2s infinite;
+}
+
+@keyframes linterna {
+    from{
+        text-shadow: 0 0 15px;
+    }
+    to {
+        text-shadow: none;
+    }
+}
+
+.estilos {
+    width: 70%;
+    height: 50%;
+}
+.estilos img {
+    height: 350px;
+
+}
+
+.error::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 2;
+
+}
