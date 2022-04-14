@@ -88,11 +88,11 @@ export default function App() {
       path="/ciudad/:ciudadId"
       render={({match}) => <Ciudad city={onFilter(match.params.ciudadId)}/>}
       />
-      <Route 
+      {/* <Route 
         path="*"
         component={PageError}
       />
-      
+       */}
       </Switch>
     </div>
   );
