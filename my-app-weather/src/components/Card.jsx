@@ -12,7 +12,7 @@ export default function Card ({min, max, name, img, onClose, id}) {
             <button onClick={onClose} className="btn btn-danger">X</button>
         </div>
         <div className="card-body">
-        <Link to={`/ciudad/${id}`}>
+        <Link to={`/app-meteorologica/ciudad/${id}`}>
           <h3 className="card-title">{name}</h3>
         </Link>
           <div className="row">

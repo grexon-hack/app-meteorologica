@@ -10,7 +10,7 @@ function Nav({onSearch}) {
   return (
     <div className='navbar'>
       <Footer />
-      <Link to='/'>
+      <Link to='/app-meteorologica/'>
         <div className='logotipo'>
           <img src={logo} alt="logo weather" width={100}/>
           <h3 className='linked'>Aplicacion del Clima</h3>
@@ -18,7 +18,7 @@ function Nav({onSearch}) {
       </Link>
       <div className='aboutLink'>
         <SearchBar onSearch={onSearch}/>
-        <Link to='/about'>
+        <Link to='/app-meteorologica/about'>
             <h4 style={{color:'black'}}>Sobre mi</h4>
         </Link>
       </div>

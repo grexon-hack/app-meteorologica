@@ -68,31 +68,31 @@ export default function App() {
   return (
     <div className="App">
       
-      <Route path="/" render={() => <Nav onSearch = {onSearch}/>}/>
+      <Route path="/app-meteorologica/" render={() => <Nav onSearch = {onSearch}/>}/>
       
       <Switch>
       {cities.length === 0? 
       <Route 
       exact
-      path="/"
+      path="/app-meteorologica/"
       render={() =><Bienvenida/>} 
       />:
       <Route 
         exact
-        path="/"
+        path="/app-meteorologica/"
         render={() =><Cards cities = {cities} onClose = {onClose}/>} 
       />}
-      <Route exact path="/about"  component={About}/>
+      <Route exact path="/app-meteorologica/about"  component={About}/>
       <Route
       exact
-      path="/ciudad/:ciudadId"
+      path="/app-meteorologica/ciudad/:ciudadId"
       render={({match}) => <Ciudad city={onFilter(match.params.ciudadId)}/>}
       />
-      {/* <Route 
+      <Route 
         path="*"
         component={PageError}
       />
-       */}
+      
       </Switch>
     </div>
   );
