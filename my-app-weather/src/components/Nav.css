@@ -40,6 +40,14 @@
     justify-content: space-around;
 }
 
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-shadow: 0 0 5px azure;
+}
+
 @media (max-width : 780px) {
     .navbar {
         font-size: 10px;
